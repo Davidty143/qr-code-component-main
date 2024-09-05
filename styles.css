@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');   
 body {
   background-color: hsl(212, 45%, 89%); /* Slate 300 */
-  place-items: center;
-  place-content: center;
   font-family: 'Outfit', sans-serif;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
   height: 100vh;
 }
 
 img {
-  width: auto; /* Adjust the width of the image */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 200px; /* Set a maximum width for the image */
-  border-radius: 5px; /* Optional: round the corners of the image */
+  max-width: 200px; /* Set a max width for the image */
+  border-radius: 5px; 
 }
 
 .shape-container {
@@ -64,10 +63,6 @@ img {
   width: 170px;
   margin: 0px; /* Margin for the text */
 }
-
-
-
-
 
 @media (min-width: 1440px) {
   body {

@@ -1,6 +1,6 @@
 body {
   background-color: hsl(212, 45%, 89%); /* Slate 300 */
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@ body {
 
 img {
   max-width: 200px; /* Set a max width for the image */
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .shape-container {
@@ -44,23 +44,25 @@ img {
 
 .text-style1 {
   color: hsl(218, 44%, 22%);
-  text-align: center; 
-  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
   font-weight: 700;
-  font-size: 15px;  
+  font-size: 15px;
   line-height: 20px;
   width: 170px;
+  max-width: max-content;
   margin: 10px 0; /* Margin for the text */
 }
 
 .text-style2 {
   color: hsl(216, 15%, 48%);
   text-align: center;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 400;
-  font-size: 11px;  
+  font-size: 11px;
   line-height: 15px;
   width: 170px;
+  max-width: max-content;
   margin: 0px; /* Margin for the text */
 }
 
